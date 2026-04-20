@@ -1,0 +1,8 @@
+{
+  "name": "x-create",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "twitter-api-v2": "^1.17.0"
+  }
+}
