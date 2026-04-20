@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-04-21T00:00:00Z",
+  "context": {
+    "campaign": "Claude Codeセミナー集客",
+    "seminar_url": "https://claude-code-seminar-lp.vercel.app/intro/",
+    "seminar_title": "話題のClaudeって何がすごいの？",
+    "host": "株式会社ノヴァリス",
+    "target_audience": "AI初心者〜ChatGPT経験者、非エンジニア含む"
+  },
+  "best_hours": [],
+  "best_dow": [],
+  "lift_words": [
+    "【朗報】",
+    "【速報】",
+    "【衝撃】",
+    "自分には関係ないと思ってた",
+    "ChatGPTとの違い",
+    "代わりに作業するAI",
+    "録画あり",
+    "無料",
+    "専門知識ゼロ"
+  ],
+  "good_patterns": [
+    "A型(事件/スクープ型)でCTA末尾にURL配置",
+    "ChatGPTとの対比で既存ユーザーを動かす",
+    "企業導入事例(メルカリ/楽天)で権威付け",
+    "箇条書き3-4項目で具体的な驚きを演出"
+  ],
+  "bad_patterns": [
+    "ハッシュタグ使用(Views半減)",
+    "数字スタート(ヒット率5%)",
+    "「すごい」「やばい」のみの感想",
+    "文中URL配置",
+    "弱いCTA(「ぜひ」「ご興味のある方は」)"
+  ],
+  "next_research_hints": [
+    "Anthropicの最新売上/評価額ニュース",
+    "Claude Codeの新機能(Routines/Computer Use等)",
+    "大手企業のClaude導入事例",
+    "ChatGPT vs Claude比較ネタ",
+    "スマホ連携・モバイル対応の話題"
+  ],
+  "active_skills": [
+    "config/skills/seminar-promotion.md"
+  ]
+}
