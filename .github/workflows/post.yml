@@ -1,10 +1,10 @@
 name: Post to X
 
+# NOTE: push トリガーは無効化中 (2026-04-21)
+# 理由: X API PPU の Standalone App は /2/tweets で 403
+# Project 紐付けの Support 依頼結果待ち。Make.com 側で投稿中。
+# 復旧時: 下の workflow_dispatch を push: branches/paths 形式に戻す。
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'drafts/pending/**'
   workflow_dispatch:
 
 jobs:

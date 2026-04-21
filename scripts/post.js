@@ -60,10 +60,6 @@ async function main() {
       console.log(`[ok] Posted ${file} -> tweet ${res.data.id}`);
     } catch (e) {
       console.error(`[error] ${file}: ${e.message}`);
-      console.error(`  code: ${e.code}`);
-      console.error(`  data: ${JSON.stringify(e.data)}`);
-      console.error(`  errors: ${JSON.stringify(e.errors)}`);
-      console.error(`  rateLimit: ${JSON.stringify(e.rateLimit)}`);
       process.exitCode = 1;
     }
   }
